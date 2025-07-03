@@ -3,6 +3,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Instagram } from "lucide-react";
 import { motion } from "framer-motion";
+import ChatGPTWidget from "./components/ChatGPTWidget";
 
 export default function MaritoMediaPortfolio() {
   return (
@@ -110,6 +111,7 @@ export default function MaritoMediaPortfolio() {
       <footer className="mt-auto text-center py-4 bg-neutral-50 text-xs text-neutral-500">
         © {new Date().getFullYear()} Marito Media. Hecho con mate y código.
       </footer>
+      <ChatGPTWidget />
     </main>
   );
 }
